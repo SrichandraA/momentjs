@@ -126,19 +126,19 @@ var endof = function(selector){
     switch(selector){
       
       case "minute":{
-        console.log("in "+(60-secs)+" seconds");
+        console.log("in "+(60-secs)+" second/s");
         break;
       }
       case "hour":{
-        console.log("in "+(60-min)+" minutes");
+        console.log("in "+(60-min)+" minute/s");
         break;
       }
       case "day":{
-        console.log("in "+(24-hour)+" hours");
+        console.log("in "+(24-hour)+" hour/s");
         break;
       }
       case "month":{
-        console.log("in "+(30-date)+" days");
+        console.log("in "+(30-date)+" day/s");
         break;
       }
       case "year":{
@@ -170,19 +170,19 @@ var startof = function(selector){
     switch(selector){
       
       case "minute":{
-        console.log(secs+" seconds ago");
+        console.log(secs+" second/s ago");
         break;
       }
       case "hour":{
-        console.log(min+" minutes ago");
+        console.log(min+" minute/s ago");
         break;
       }
       case "day":{
-        console.log(hour+" hours ago");
+        console.log(hour+" hour/s ago");
         break;
       }
       case "month":{
-        console.log(date+" days ago");
+        console.log(date+" day/s ago");
         break;
       }
       case "year":{
